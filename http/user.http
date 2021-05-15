@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/clientes
+Accept: application/json
+Content-Type: application/json
+
+{
+  "correo": "ariel@gmail.com",
+  "password": "123Fabricio",
+  "estado": "1",
+  "nombres": "Fabricio",
+  "apellidos": "Crespo",
+  "fechaNacimiento": "1999-01-08",
+  "telefono": "737348",
+  "direccion": "Obrajes"
+}
