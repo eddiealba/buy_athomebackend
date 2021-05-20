@@ -127,7 +127,6 @@ public class ClienteRestController {
             clienteActual.setApellidos(cliente.getApellidos());
             clienteActual.setFechaNacimiento(cliente.getFechaNacimiento());
             clienteActual.setTelefono(cliente.getTelefono());
-            clienteActual.setDireccion(cliente.getDireccion());
 
             clienteUpdated = clienteService.save(clienteActual);
         } catch (DataAccessException e) {

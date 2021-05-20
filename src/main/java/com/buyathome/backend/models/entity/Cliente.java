@@ -47,8 +47,6 @@ public class Cliente implements Serializable {
     @Size(min = 8, message="Este campo debe tener 8 numeros")
     private String telefono;
 
-    @NotBlank(message = "Dato obligatorio")
-    private String direccion;
 
     public Integer getIdCliente() {
         return idCliente;
@@ -106,12 +104,6 @@ public class Cliente implements Serializable {
         this.telefono = telefono;
     }
 
-    public String getDireccion() {
-        return direccion;
-    }
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
 
     private static final long serialVersionUID = 1L;
 }
